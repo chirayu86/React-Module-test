@@ -1,0 +1,32 @@
+.create-note-container {
+    position: relative;
+    background-color: blue;
+    padding: 15px;
+}
+
+.create-note-textarea {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.send-image {
+    background: transparent;   
+    border: none;             
+    outline: none;            
+    color: inherit;            
+    cursor: pointer;   
+    position: absolute;   
+    bottom: 25px;  
+    right: 20px;   
+    
+}
+
+
+.send-image[disabled] {   
+    color: #666;              
+    cursor: not-allowed;     
+    opacity: 0.6;             
+    pointer-events: none;
+}

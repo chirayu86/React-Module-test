@@ -1,0 +1,82 @@
+.create-grp-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.create-grp-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 450px;
+    max-width: 90%;
+    position: relative;
+    text-align: justify;
+}
+
+.color-selector {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input-field {
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+}
+
+.color-btn {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.color-btn.active {
+    border: 2px solid black;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.create-grp-header {
+    margin-bottom: 20px;
+}
+
+.create-btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.create-btn-spacer {
+   flex-basis: 80%;
+}
+
+.create-btn {
+    background-color: #001F8B;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    width: 80px;
+    height: 40px;
+
+}
